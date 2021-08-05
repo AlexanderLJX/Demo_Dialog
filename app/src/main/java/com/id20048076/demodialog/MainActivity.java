@@ -129,7 +129,7 @@ public class MainActivity extends AppCompatActivity {
                         int first = Integer.parseInt(etInput.getText().toString());
                         int second = Integer.parseInt(etInput2.getText().toString());
                         String message = String.format("The sum is %d",first+second);
-                        tv3.setText(message);
+                        tv4.setText(message);
                     }
                 });
                 myBuilder.setNegativeButton("CANCEL", null);
